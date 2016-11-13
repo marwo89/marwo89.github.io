@@ -5,13 +5,56 @@
   <meta charset="utf-8">
   <title>Dry Oar Boating</title>
   <style>
-	
-	  nav{ background-color:#FF8212}
-	  nav{ color:#023F93}
+	  
+	  #content {width: 80%;
+		  		max-width: 960px;
+	  			margin: 0 auto;
+      }
+      
+	  nav{ background-color:#FF8212;
+           color:#023F93;
+      
+      }
+	  
+      #part0{padding: 10px;
+             
+      }
+      .fullwidth{
+          width: 100%;
+      }
+      
+      
+      
+      #part1{padding: 10px;
+          display: flex;
+          flex-direction: row;
+          flex-flow: row wrap;
+          align-items: center;          
+      }
+     
 
 	  #part2{background-color:#0FAAB8;
              padding: 10px;
+             display: flex;
+             flex-direction: row;
+             flex-flow: row wrap;
+             align-items: center;
       }
+     
+      
+       
+	  #part3 {text-align: center;
+	  		  width: 70%;
+	  		  margin: 0 auto;
+              padding: 10px;
+              
+      }
+      
+      
+	  .para{color:#F2F2F2}
+      
+	  li{display: inline;}
+      
 	  h1,h2,h3,h4,h5,h6{color:#7847B3;
                         font-family:'Palatino Linotype', serif;
       }
@@ -29,39 +72,10 @@
          font-size: 110%;
       }
 	  
-	  #content {width: 80%;
-		  		max-width: 960px;
-	  			margin: 0 auto;
                 
       }
 	  img { max-width: 100%}
-
-	  #part2{background-color:#0FAAB8}
-	  h1,h2,h3,h4,h5,h6{color:#7847B3}
-	  .para{color:#F2F2F2}
-	  li{display: inline;}
-	  
-	  #content {width: 80%;
-		  		max-width: 960px;
-	  			margin: 0 auto;}
-	  img { max-width: 100%}
-	  
-	  #part3 {text-align: center;
-	  		  width: 70%;
-	  		  margin: 0 auto;}
-
-	  
-	  #part3 {text-align: center;
-	  		  width: 70%;
-	  		  margin: 0 auto;
-              padding: 10px;
-      }
-      
-      #part1{padding: 10px;
-          
-          
-      }
-      
+	   
       
       p{
           font-family: 'Times New Roman', sans-serif;
@@ -72,7 +86,31 @@
       .high{
           margin-bottom: 0;
           padding-bottom: 0;
+        
       }
+      .leftcol{
+          width: 48%;
+          flex: 1 0 15em;
+          margin: .05em;
+          
+      }
+      .rightcol{
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .05em;
+      }
+      #close{
+          margin-bottom: 50;
+      }
+      
+      footer{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      
+          
+      
   </style>
 	
 	
@@ -95,14 +133,15 @@
 			  <li><a href='#'>Contact Us |</a></li>
 		  </ul>
 	  </nav>
-    <section id='part1'><img src='http://brothert.net/dryoar/images/littlecolorado-wide.jpg' alt='Banner Image' width='940' height='250'>
+    <section id='part0'><img class="fullwidth" src='http://brothert.net/dryoar/images/littlecolorado-wide.jpg' alt='Banner Image' width='940' height='250'></section>
       
+      <section id='part1'>   
       <div class='leftcol'>  
       <h2 class='high'>We run Rivers to relax</h2>
       <p class='diff'>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p></div>
       
       <div class='rightcol'>   
-      <img src='http://brothert.net/dryoar/images/river-narrow.jpg' alt='relax pic' width='420' height='315'></div></section><br>
+      <img id='second' src='http://brothert.net/dryoar/images/river-narrow.jpg' alt='relax pic' width='420' height='315'></div></section><br>
           
       <section id='part2'><div class='leftcol'><img src='http://brothert.net/dryoar/images/ik-rapid.jpg' alt='rapids pic' width='420' height='315'></div>
       
@@ -111,16 +150,17 @@
          <p class='para'>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful  water that always follows even more.</p></div></section>
 
       
-      <section id='part3'><h2>Come join us now</h2>
-      <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p></section><br>
+      <section id='part3'><h2 id='close'>Come run with us. </h2>
+      <p >We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p></section><br>
       
       <footer>
       <p>&copy; 2016 Dry Oar || Marwin Palea <p>
-          
-             <a href='#'><img src="facebook.png" alt='facebook logo'></a>
-		     <a href='#'><img src="twitter.png" alt='twitter logo'></a>
-		     <a href='#'><img src="youtube.png" alt='youtube logo'></a>
-          
+      
+        <p>
+          <a href='#'><img  src="facebook.png" alt='facebook logo'></a>
+		   <a href='#'><img  src="twitter.png" alt='twitter logo'></a>
+		  <a href='#'><img  src="youtube.png" alt='youtube logo'></a>
+        </p>
       </footer>
 
       </div> 
