@@ -1,0 +1,108 @@
+ #content {width: 80%;
+		  		max-width: 960px;
+	  			margin: 0 auto;
+      }
+      
+	  nav{ background-color:#FF8212;
+           color:#023F93;
+      
+      }
+	  
+      #part0{padding: 10px;
+             
+      }
+      .fullwidth{
+          width: 100%;
+      }
+      
+      
+      
+      #part1{padding: 10px;
+          display: flex;
+          flex-direction: row;
+          flex-flow: row wrap;
+          align-items: center;          
+      }
+     
+
+	  #part2{background-color:#0FAAB8;
+             padding: 10px;
+             display: flex;
+             flex-direction: row;
+             flex-flow: row wrap;
+             align-items: center;
+      }
+     
+      
+       
+	  #part3 {text-align: center;
+	  		  width: 70%;
+	  		  margin: 0 auto;
+              padding: 10px;
+              
+      }
+      
+      
+	  .para{color:#F2F2F2}
+      
+	  li{display: inline;}
+      
+	  h1,h2,h3,h4,h5,h6{color:#7847B3;
+                        font-family:'Palatino Linotype', serif;
+      }
+	  .para{color:#F2F2F2;
+            margin-top: 0;
+            padding-top: 5px;
+      }
+      
+      .diff{ margin-top: 0;
+            padding-top: 5px;
+             
+      }
+      
+	  li{display: inline;
+         font-size: 110%;
+      }
+	  
+                
+      }
+	  img { max-width: 100%}
+	   
+      
+      p{
+          font-family: 'Times New Roman', sans-serif;
+          padding: 10px;
+          line-height: 1.5em;
+      }
+      
+      .high{
+          margin-bottom: 0;
+          padding-bottom: 0;
+        
+      }
+      .leftcol{
+          width: 48%;
+          flex: 1 0 15em;
+          margin: .05em;
+          
+      }
+      .rightcol{
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .05em;
+      }
+      #close{
+          margin-bottom: -20px;
+      }
+      
+      footer{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          
+      }
+      .end{
+         margin: 20px
+      }
+          
+      
