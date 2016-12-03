@@ -1,6 +1,6 @@
  #content {width: 80%;
-		  		max-width: 960px;
-	  			margin: 0 auto;
+		   max-width: 960px;
+	  	   margin: 0 auto;
       }
       
 	  nav{ background-color:#FF8212;
@@ -73,6 +73,15 @@
               padding: 10px;
               
       }
+      #part4{
+          background-color: gainsboro;
+          padding: 10px;
+          display: flex;
+          flex-direction: row;
+          flex-flow: row wrap;
+          align-items: center;
+          
+      }
       
       
 	  .para{color:#F2F2F2}
@@ -81,6 +90,7 @@
       
 	  h1,h2,h3,h4,h5,h6{color:#7847B3;
                         font-family:'Palatino Linotype', serif;
+                        text-align: center;
       }
 	  .para{color:#F2F2F2;
             margin-top: 0;
