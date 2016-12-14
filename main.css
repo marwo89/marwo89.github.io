@@ -53,7 +53,8 @@
           display: flex;
           flex-direction: row;
           flex-flow: row wrap;
-          align-items: center;          
+          align-items: center;
+          
       }
      
 
@@ -73,9 +74,7 @@
               padding: 10px;
               
       }
-      #part4{
-          background-color: gainsboro;
-          padding: 10px;
+      #part4{padding: 10px;
           display: flex;
           flex-direction: row;
           flex-flow: row wrap;
@@ -91,6 +90,10 @@
 	  h1,h2,h3,h4,h5,h6{color:#7847B3;
                         font-family:'Palatino Linotype', serif;
                         text-align: center;
+      }
+      #red{
+          color: indianred;
+        
       }
 	  .para{color:#F2F2F2;
             margin-top: 0;
@@ -133,18 +136,80 @@
             flex: 1 0 15em;
             margin: .05em;
       }
+      .leftcol1{
+          width: 400px;
+          flex-direction: row;
+          margin-right: 200px;
+          text-align: center;
+          
+      }
+      .leftcol2{
+          width: 400px;
+          flex-direction: row;
+          margin-right: 190px;
+          text-align: center;
+          
+      }
+      .leftcol3{
+          width: 400px;
+          flex-direction: row;
+          margin-right: 180px;
+          text-align: center;
+          
+      }
+      .leftcol4{
+          width: 400px;
+           flex-direction: row;
+          margin-right: 170px;
+          text-align: center;
+          margin-top: -100px:
+      }
+      .rightcol1{
+            width:400px;
+            height:300px;
+            flex-flow: row;
+            margin-right: -80px;
+            margin-bottom: -20px;
+            
+      }
+      .rightcol2{
+            width:380px;
+            height:300px;
+            flex-flow: row;
+            margin-right: -60px;
+            
+      }
+      .rightcol3{
+            width:300px;
+            height:300px;
+            flex-flow: row;
+           margin-left: 0px;
+            
+      }
+      .rightcol4{
+            width:300px;
+            height:300px;
+            flex-flow: row;
+            margin-bottom: -40px;
+      }
       #close{
           margin-bottom: -20px;
       }
       
       footer{
+          width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
+          
           
       }
       .end{
          margin: 20px
       }
-          
+    
+      form{
+         display: flex;
+         justify-content: center;
+      }
       
