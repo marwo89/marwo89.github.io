@@ -34,8 +34,8 @@ nav ul {
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-around;
-    font-size: 1.35em;
-    line-height: 3em;
+    font-size: 1.2em;
+    line-height: 2.5em;
     margin-top: -1.5em;
 }
 
@@ -66,5 +66,5 @@ footer{
     width: 3em;
     text-align: center;
     margin-top: -3.5em;
-    font-size: 2em;
+    font-size: 1.8em;
 }
