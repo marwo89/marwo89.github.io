@@ -140,11 +140,16 @@ a:hover{
 
 
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 801px) {
     .border {
 
         width: 90%;
 
+    }
+
+    .group3{
+
+        font-size: 1.6em;
     }
 
     .group4 {
