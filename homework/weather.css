@@ -34,10 +34,10 @@
 
 .first {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    max-width: 12%;
+    max-width: 13%;
     margin:auto;
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 @media screen and (min-width: 473px) {
     .first{
-
+        flex-flow: column wrap;
         max-width: 100%;
     }
 
