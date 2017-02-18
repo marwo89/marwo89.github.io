@@ -33,7 +33,12 @@
 }
 
 .first {
-    display: none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 12%;
+    margin:auto;
 }
 
 nav ul {
@@ -96,6 +101,15 @@ a:hover {
     margin-bottom: .2em;
 }
 
+@media screen and (min-width: 473px) {
+    .first{
+
+        max-width: 100%;
+    }
+
+
+}
+
 @media screen and (min-width: 514px) {
     .border {
         border-style: double;
@@ -119,12 +133,7 @@ a:hover {
         margin-bottom: 1.5em;
         font-size: 1.25em;
     }
-    .first {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
+
     .hour {
         display: flex;
         flex-flow: column wrap;
@@ -132,6 +141,11 @@ a:hover {
         align-items: center;
         width: 90%;
     }
+    .first{
+
+        max-width: 100%;
+    }
+
     img {
         width: 15em;
         height: 12em;
