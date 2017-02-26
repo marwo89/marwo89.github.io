@@ -1,10 +1,10 @@
 //jquery function to impliment moduralization
 
-$ (function (){
+$(function (){
 
 $('#page-header').load('header.html');
 $('#page-nav').load('nav.html');
-$('#page-fiiter').load('footer.html');
+$('#page-footer').load('footer.html');
 
 
 
