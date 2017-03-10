@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+    <title>marwo89.github.io</title>
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+        #one {
+            background-color: aquamarine;
+        }
+        #two{
+            background-color:cyan;
+        }
+
+        .uno {
+            background-color:lightyellow;
+        }
+        #pics{
+            display:flex;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            align-items:center;
+            width: 80%;
+        }
+        #content{
+            ;
+        }
+        p{
+            border-style: double;
+            width:50%;
+            background-color: azure
+
+        }
+        footer{
+
+            margin:2em;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id='content'>
+    <header id='page-header'>
+        <h1>Javascript Callback Function</h1>
+
+
+
+
+    </header>
+
+    <nav id='page-nav'>
+    </nav>
+
+
+
+    <main>
+        <section id='one'>
+            <h2>Functions</h2>
+            <div class='uno'>
+                <ul>
+                    <li>A function is an object</li>
+                    <br>
+                    <li>Objects and variables are placed in functions to make them opperable
+                    </li>
+                    <br>
+                    <li>Functions can be placed inside of functions</li>
+                    <br>
+                </ul>
+
+            </div>
+            <div id='pics'>
+                <img src='without.png' alt='code without a function'><br><br>
+
+
+                <img src='trouble.png' alt='code out of list order'><br><br>
+
+
+                <img src='withfunc.png' alt='code with a function'>
+                <br>
+            </div>
+
+
+            <ul class='uno'>
+                <li>Functions work by taking input and return a value using a return statement (ideally a single return statement at the end of the function)</li>
+                <br>
+                <li> creates one entry point and one exit point.</li>
+                <br>
+                <li>Rather than wait around for a function to finish by returning a value, we can use callbacks to do it at different times.</li>
+
+            </ul>
+        </section>
+
+        <section id='two'>
+
+            <h2>Callback Function</h2>
+
+            <p><strong>A JavaScript Callback Function is a function that is passed as a parameter to another JavaScript function, and the callback function is run inside of the function it was passed into</strong></p>
+
+            <p>Callback functions are derived from a programming paradigm known as functional programming.</p>
+
+            <p>A callback function is essentially a pattern (an established solution to a common problem), and therefore, the use of a callback function is also known as a callback pattern.</p>
+
+            <ul>
+                <li>We can pass functions around like variables and return them in functions and use them in other functions.</li>
+                <li>Callback Functions are not executed until called upon (hence the name) </li>
+                <li>When a function is called depends on your coding like in the sitepoint exercises</li>
+
+
+            </ul>
+
+
+        <p> Life is so much better with callback functions. Enjoy your new and improved life. <a href='https://www.w3schools.com/jquery/jquery_callback.asp'> w3schools example</a></p>
+
+        </section>
+
+    </main>
+
+    <footer >
+
+        <short>Updated 09 March 2017</short>
+
+
+    </footer>
+    </div>
+
+</body>
+
+</html>
