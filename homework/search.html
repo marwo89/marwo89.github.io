@@ -13,7 +13,7 @@
 
 
     <body>
-        <div id='content'>
+
 
             <header id='page-header'>
 
@@ -25,58 +25,51 @@
 
             <main>
 
-                <div class="group">
+                <form method="get" action="" id="srchfrm">
+                    <input type="search" name="query" id="query">
 
-                    <div class="group2">
-                        <img src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVf_7fyaQXhodk54oHxt-LPf0VTX1rgulquJ7onZm7Kb9HqjLL' alt="sunny icon">
+                </form>
+
+                <section id="results">
+                    <h2>Search Results</h2>
+                </section>
+
+
+                <div id='wrapper'>
+
+                    <h2 id='cityDisplay'> </h2>
 
 
 
-                    </div>
-                    <div class='group3'>
-                        <p></p>
 
-                        <div id='degree'>
+                        <div>
 
                             <p id='currentTemp'></p>
                             <p id='summary'></p>
                         </div>
 
-                        <p></p>
-                    </div>
 
 
-                </div>
 
-                <div class="group2">
-                    <div class='group4'>
+
+
+
+                <div >
+
                         <p id='add1'></p>
                         <p id='add2'></p>
                         <p  id='add3'>
                         </p>
-                    </div>
-
-
-                    <div id='location1'>
-                        <p id='cityDisplay'></p>
-                    </div>
 
                 </div>
 
 
-
-
-
-
+                </div>
 
             </main>
 
 
-            <footer id='page-footer'>
 
-            </footer>
-
-        </div>
         <br>
         <script
                 src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -84,13 +77,8 @@
                 crossorigin="anonymous"></script>
 
 
-
-        <script src='weather_wu.js'></script>
-
-
-
         <script src='modules.js'></script>
-
+        <script src='search.js'></script>
     </body>
 
 </html>
