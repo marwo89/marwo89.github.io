@@ -1,0 +1,24 @@
+{var video = [}
+    {
+    "Type": "catch",
+    "Cust_first":"David",
+    "Cust_last":"Palu",
+    "video": "",
+    "Date": "03-29-2017"
+
+},
+
+    {
+     "Type": "shot",
+     "Cust_first":"Salesi",
+     "Cust_last":"Apina",
+     "video": "" ,
+     "Date": "03-30-2017"
+
+
+    }
+
+
+
+
+}

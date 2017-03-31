@@ -1,0 +1,65 @@
+{
+   "Kona": {
+        "City": "Kona",
+        "State": "HI",
+        "High": 85,
+        "Low": 68,
+        "Current_temp": 76,
+        "Precip": 0,
+        "Wind": "1-6",
+        "Direction": "Northeast",
+        "Summary": "Sunny",
+        "Longitude": -155.996933,
+        "Latitude": 19.639994,
+        "zip": 96740
+
+    },
+   "Hilo": {
+        "City": "Hilo",
+        "State": "HI",
+        "High": 82,
+        "Low": 65,
+        "Current_temp": 74,
+        "Precip": 0.6,
+        "Wind": "0-2",
+        "Direction": "Southwest",
+        "Summary": "Mostly Cloudy",
+        "Longitude": -155.084503,
+        "Latitude": 19.692437,
+        "zip": 96720
+
+    },
+    "Kohala":{
+        "City": "Kohala",
+        "State": "HI",
+        "High": 81,
+        "Low": 69,
+        "Current_temp": 75,
+        "Precip": 0,
+        "Wind": "3 - 14",
+        "Direction": "Northeast",
+        "Summary": "Sunny",
+        "Longitude": -155.830547,
+        "Latitude": 20.239039,
+        "zip": 96719
+
+    },
+
+    "South_Point":{
+        "City": "South Point",
+        "State": "HI",
+        "High": 76,
+        "Low": 68,
+        "Current_temp": 72,
+        "Precip": 0,
+        "Wind": "11 - 17",
+        "Direction": "Northeast",
+        "Summary": "Sunny",
+    "Longitude": -155.575098,
+    "Latitude": 19.069827,
+        "zip":96772
+
+    }
+
+}
+
