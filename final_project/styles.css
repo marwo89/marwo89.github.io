@@ -66,11 +66,11 @@ a:active{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    background-image:;
 }
 
 #page-footer{
-    background-color:midnightblue;
-    color: whitesmoke;
+    background-color:dodgerblue;
     width:25%;
     margin: auto;
     margin-top: 1em;
