@@ -3,7 +3,7 @@ $.getJSON("video.json", function (data) {
 
     var bigvid = "<video controls preload='metadata'" + " " + "src='" + data.Big.video + "'></video>";
 
-    var shotvid = "<video controls preload='metadata'" + " " + "src='" + data.Big.video + "'></video>";
+    var shotvid = "<video controls preload='metadata'" + " " + "src='" + data.Shot.video + "'></video>";
     var name = data.Big.first + " " + data.Big.last;
     var name2 = data.Shot.first + " " + data.Shot.last;
 
