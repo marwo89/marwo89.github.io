@@ -28,15 +28,23 @@ console.log(data);
 
     $("#Kona").text(location);
      $("#kn1").text("Current Temperature: " + temp_f + " " +  "°");
+    $("#kn2").text("High:" + data.Kona.High + "_" + " " + data.Kona.Summary + "_ " + " "  + "Low:" + data.Kona.Low)
 
-    $("#Hilo").text(location1  + " " + "Current Temperature: " + temp_f1 + " " +  "°");
+
+    $("#Hilo").text(location1);
     $("#hl1").text("Current Temperature: " + temp_f + " " +  "°");
+    $("#hl2").text("High:" + data.Hilo.High + "_" + " " + data.Hilo.Summary + "_ " + " "  + "Low:" + data.Hilo.Low)
 
-    $("#Kohala").text(location2  + " " + "Current Temperature: " + temp_f2 + " " +  "°");
+
+    $("#Kohala").text(location2);
     $("#kh1").text("Current Temperature: " + temp_f + " " +  "°");
+    $("#kh2").text("High:" + data.Kohala.High + "_" + " " + data.Kohala.Summary + "_ " + " "  + "Low:" + data.Kohala.Low)
 
-    $("#South_Point").text(location3  + " " + "Current Temperature: " + temp_f3 + " " +  "°");
+
+    $("#South_Point").text(location3);
     $("#sp1").text("Current Temperature: " + temp_f + " " +  "°");
+    $("#sp2").text("High:" + data.South_Point.High + "_" + " " + data.South_Point.Summary + "_ " + " "  + "Low:" + data.South_Point.Low)
+
 
 });
 

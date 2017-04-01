@@ -8,7 +8,7 @@ body{
 
 }
 
-p{
+.para{
  background-color:cadetblue;
  color: whitesmoke;
  text-indent: 1.5em;
@@ -62,19 +62,58 @@ a:active{
     margin-top:1.5em;
 }
 
+
 #hicity{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
-    background-image:;
+
 }
+
+#bigpic{
+    display: none;
+}
+
+#pic2{
+    display: none;
+}
+
 
 #page-footer{
     background-color:dodgerblue;
     width:25%;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 3em;
 }
+
+#name{
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+#name2{
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+#big{
+    margin:auto;
+
+}
+
+#shot{
+
+    margin:auto;
+    margin-bottom: 2em;
+
+}
+
+#email{
+    margin:auto;
+    width:50%;
+    background-color: floralwhite;
+}
+
 
 .gearin{
     width: auto;
@@ -100,6 +139,10 @@ a:active{
     margin:auto;
 }
 
+.uno{
+    background-image: url()
+}
+
 .two{
     text-align: left;
     color:whitesmoke
@@ -116,9 +159,35 @@ a:active{
 }
 
 .p1{
+    margin: auto;
+    width:27%;
     color:darkred;
+    background-color: gainsboro;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
+.p2{
+    margin:auto;
+    background-color: aquamarine;
+    width: 70%;
+    margin-bottom: .25em;
+    font-size: 1.1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.one{
+   margin: auto;
+ text-align: center;
+
+}
 
 @media screen and (min-width: 401px) {
 
@@ -131,6 +200,7 @@ a:active{
         height:14em;
 
     }
+
 
 }
 
@@ -160,6 +230,16 @@ a:active{
 
     }
 
+    .p1{
+
+        font-size: 1.6em;
+    }
+
+    .p2{
+        width: 50%;
+        font-size: 1.25em;
+    }
+
 }
 
 
@@ -185,7 +265,7 @@ a:active{
 
     }
 
-    p{
+    .para{
         max-width: 55%;
         margin:auto;
         text-align: left;
@@ -205,8 +285,41 @@ a:active{
 
     }
 
+    .p2{
+        width: 25%;
 
+    }
+
+    #big{
+        width:30%;
+        background-color: cadetblue;
+    }
+
+    #shot{
+        width:30%;
+        background-color: cadetblue;
 
 }
+
+
+
+    @media screen and (min-width: 1251px){
+
+    #bigpic{
+        display: flex;
+        justify-content: space-between;
+        opacity: .4;
+        text-align: left;
+        margin-top:-30em
+    }
+
+    #pic2{
+        display: flex;
+        margin-left: 26.em;
+    }
+
+    }
+
+
 
 

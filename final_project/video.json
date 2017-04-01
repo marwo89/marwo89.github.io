@@ -1,18 +1,18 @@
-{var video = [}
-    {
+{
+   "Big": {
     "Type": "catch",
-    "Cust_first":"David",
-    "Cust_last":"Palu",
-    "video": "",
+    "first":"David",
+    "last":"Palu",
+    "video": "big.mp4" ,
     "Date": "03-29-2017"
 
 },
 
-    {
+    "Shot": {
      "Type": "shot",
-     "Cust_first":"Salesi",
-     "Cust_last":"Apina",
-     "video": "" ,
+     "first":"Salesi",
+     "last":"Apina",
+     "video":"shot.mp4",
      "Date": "03-30-2017"
 
 
