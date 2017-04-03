@@ -88,11 +88,17 @@ a:active {
 
 #big {
     margin: auto;
+    width: 80vw;
 }
 
 #shot {
     margin: auto;
     margin-bottom: 2em;
+    width: 80vw;
+}
+
+video{
+    width: 100%;
 }
 
 #email {
@@ -233,14 +239,7 @@ a:active {
     .p2 {
         width: 25%;
     }
-    #big {
-        width: 30%;
-        background-color: cadetblue;
-    }
-    #shot {
-        width: 30%;
-        background-color: cadetblue;
-    }
+
 }
 
 @media screen and (min-width: 1251px) {
@@ -257,7 +256,7 @@ a:active {
     }
 
     .gearin2 {
-        width: 55em;
+        width: 60em;
         height: 30em;
     }
 }
