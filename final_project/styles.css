@@ -88,13 +88,13 @@ a:active {
 
 #big {
     margin: auto;
-    width: 80vw;
+    width: 50vw;
 }
 
 #shot {
     margin: auto;
     margin-bottom: 2em;
-    width: 80vw;
+    width: 50vw;
 }
 
 video{
@@ -240,6 +240,9 @@ video{
         width: 25%;
     }
 
+    ul{
+        list-style-type: none;
+    }
 }
 
 @media screen and (min-width: 1251px) {
